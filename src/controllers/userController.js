@@ -8,7 +8,7 @@ exports.createUser = async (req, res) => {
     res.status(400).json({message: error.message});
   }
 };
-//implementar os outros metodos
+
 
 exports.getAllUsers = async (req, res) => {
   try{
