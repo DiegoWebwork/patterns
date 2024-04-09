@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./database');
 const routes = require('./src/routes/userRoutes');
 
-//abaixo de PORT
+
 const app = express();
 const PORT = 3000;
 connectDB();
