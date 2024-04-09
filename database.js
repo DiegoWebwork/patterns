@@ -7,7 +7,7 @@ const connectDB = async () => {
       useUnifiedTopology: true,
     });
     console.log('Conectado ao banco de dados');} catch(error) {
-    console.error('conexao zoada', error.message);
+    console.error('Error na conexao', error.message);
     process.exit(1);
   }
 };
